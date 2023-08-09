@@ -1,9 +1,9 @@
 import React from "react";
-import Hospital from "../Assets/Hospital.webp";
+import Hospital from "../../Assets/Hospital.webp";
 function HospitalInfo() {
   return (
-    <div classNameName="container">
-      <div className="card mb-3">
+    <div>
+      <div className="card1 mb-3">
         <div className="row no-gutters">
           <div className="col-md-4">
             <img src={Hospital} className="card-img" alt="..." />
@@ -23,7 +23,7 @@ function HospitalInfo() {
           </div>
         </div>
       </div>
-      <div className="card mb-3">
+      <div className="card1 mb-3">
         <div className="row no-gutters">
           <div className="col-md-4">
             <img src={Hospital} className="card-img" alt="..." />

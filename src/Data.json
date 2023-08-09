@@ -1,0 +1,119 @@
+{
+  "hospitals": [
+    {
+      "hospitalId": "12345",
+      "hospitalName": "XYZ Hospital",
+      "location": "City ABC",
+      "status": "Verified",
+      "doctors": [
+        {
+          "docId": "1",
+          "name": "Dr. John Doe",
+          "qualification": "MBBS, MD (Cardiology)"
+        },
+        {
+          "docId": "2",
+          "name": "Dr. Jane Smith",
+          "qualification": "MBBS, MS (Orthopedics)"
+        },
+        {
+          "docId": "3",
+          "name": "Dr. Sanjana Pawale",
+          "qualification": "MBBS, MD (Pediatrics)"
+        }
+      ]
+    },
+    {
+      "hospitalId": "67890",
+      "hospitalName": "ABC Hospital",
+      "location": "City XYZ",
+      "status": "Verified",
+      "doctors": [
+        {
+          "docId": "4",
+          "name": "Dr. Emily Johnson",
+          "qualification": "MBBS, MS (Gynecology)"
+        },
+        {
+          "docId": "5",
+          "name": "Dr. Michael Brown",
+          "qualification": "MBBS, MD (Neurology)"
+        },
+        {
+          "docId": "6",
+          "name": "Dr. Sarah Lee",
+          "qualification": "MBBS, MD (Dermatology)"
+        }
+      ]
+    },
+    {
+      "hospitalId": "24680",
+      "hospitalName": "PQR Hospital",
+      "location": "City DEF",
+      "status": "Verified",
+      "doctors": [
+        {
+          "docId": "7",
+          "name": "Dr. Robert White",
+          "qualification": "MBBS, MD (Ophthalmology)"
+        },
+        {
+          "docId": "8",
+          "name": "Dr. Lisa Thomas",
+          "qualification": "MBBS, MS (ENT)"
+        },
+        {
+          "docId": "9",
+          "name": "Dr. William Clark",
+          "qualification": "MBBS, MD (Psychiatry)"
+        }
+      ]
+    },
+    {
+      "hospitalId": "13579",
+      "hospitalName": "LMN Hospital",
+      "location": "City GHI",
+      "status": "Verified",
+      "doctors": [
+        {
+          "docId": "10",
+          "name": "Dr. Jennifer Green",
+          "qualification": "MBBS, MS (Radiology)"
+        },
+        {
+          "docId": "11",
+          "name": "Dr. Christopher Turner",
+          "qualification": "MBBS, MD (Internal Medicine)"
+        },
+        {
+          "docId": "12",
+          "name": "Dr. Elizabeth Adams",
+          "qualification": "MBBS, MD (Obstetrics and Gynecology)"
+        }
+      ]
+    },
+    {
+      "hospitalId": "10293",
+      "hospitalName": "OPQ Hospital",
+      "location": "City JKL",
+      "status": "Verified",
+      "doctors": [
+        {
+          "docId": "13",
+          "name": "Dr. Kevin Wilson",
+          "qualification": "MBBS, MD (Anesthesiology)"
+        },
+        {
+          "docId": "14",
+          "name": "Dr. Jessica Turner",
+          "qualification": "MBBS, MS (Dermatology)"
+        },
+        {
+          "docId": "15",
+          "name": "Dr. Thomas Robinson",
+          "qualification": "MBBS, MD (Cardiothoracic Surgery)"
+        }
+      ]
+    }
+  ]
+}

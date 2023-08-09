@@ -2,6 +2,7 @@ import { Component } from "react";
 import { Menuitems } from "./MenuItems";
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
+import VetLogo from'../Assets/VetLogo.PNG';
 
 class Navbar extends Component {
   state={clicked: false}; 
@@ -11,7 +12,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">VETLINK HUB</h1>
+        <h1 className="navbar-logo"><img src={VetLogo} style={{width:'40px'}}/>VETLINK HUB</h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
